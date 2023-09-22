@@ -10,6 +10,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### [Deprecated]
 ### [Removed]
 
+##  [0.3.7] - 2023-09-22
+
+* PR #10005: TEST 
+* PR #10002: TEST 
+* PR #10001: TEST 
+* PR #10000: TEST 
+* PR #9999: Update version 
+* PR #1185: Add support for function calls without input arguments: `FUNC
+* PR #1192: Skip pinecone test if pinecone is not installed 
+* PR #1191: fix: unclosed file error 
+* PR #1190: fix: release change log 
+* PR #1153: feat: integrate with pgvector 
+* PR #1135: Pinecone vector store 
+* PR #1165: bug: drop bug fix 
+* PR #1168: LLM app fixes 
+* PR #1182: Bump Version to v0.3.7+dev 
+* PR #1181: releass: bump a version further to skip cached wheel 
+
 ##  [0.3.6] - 2023-09-21
 
 * PR #1181: releass: bump a version further to skip cached wheel 
