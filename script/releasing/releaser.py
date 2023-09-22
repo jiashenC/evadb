@@ -178,7 +178,7 @@ def get_commit_id_of_latest_release():
     # Default to the latest release.
     import requests
 
-    repo = "georgia-tech-db/evadb"
+    repo = "jiashenC/evadb"
     url = f"https://api.github.com/repos/{repo}/releases"
     response = requests.get(url)
     data = response.json()
@@ -224,14 +224,14 @@ def publish_wheels(tag):
 
     print("Running twine to upload wheels")
     print("Ensure that you have .pypirc file in your $HOME folder")
-    run_command("twine upload dist/* -r pypi")
+    # run_command("twine upload dist/* -r pypi")
 
 
 def upload_assets(changelog, tag):
     # Authentication token
     access_token = os.environ["GITHUB_KEY"]
     # Repository information
-    repo_owner = "georgia-tech-db"
+    repo_owner = "jiashenC"
     repo_name = "evadb"
 
     # Release information
